@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mahesh4346_go_pipeline_sample_1712257025751-pr-trigger-input-set
+  identifier: Build_mahesh4346_go_pipeline_sample_1712257025751prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TestProject1
+  pipeline:
+    identifier: Build_mahesh4346_go_pipeline_sample_1712257025751
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
